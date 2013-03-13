@@ -19,16 +19,8 @@ body {text-align: center;}
 
 
 
-<form action="/formular.php" method="get">
-    <fieldset>
-        <legend>Bitte einloggen</legend>
-        <label for="email">E-Mail:</label>
-        <input type="text" name="email" id="email" class="text" />
-        <label for="feld2">Passwort:</label>
-        <input type="password" name="passwort" id="passwort" class="text" />
-        <input type="submit" value="Anmelden" class="submit" />
-    </fieldset>
-</form>
+
+<form action="name.php" method="post">
 	
 	<select>
 		<option>Marco Schmidlin</option>
@@ -48,14 +40,11 @@ body {text-align: center;}
 					</select>
 				</th>
 			<tr>
-				<fieldset>
-					<legend>SCHRIFTLICH</legend>
-					<th><input type="text" name="schriftlich" value="SCHRIFTLICH" readonly></th>
-					<th><input type="text" name="SN1" value="sch. Note 1"></th>
-					<th><input type="text" name="SN2" value="sch. Note 2"></th>
-					<th><input type="text" name="SN3" value="sch. Note 3"></th>
-					<th><input type="text" name="SN4" value="sch. Note 4"></th>
-				</fieldset>
+				<th><input type="text" name="schriftlich" value="SCHRIFTLICH" readonly></th>
+				<th><input type="text" name="SN[1]" value="sch. Note 1"></th>
+				<th><input type="text" name="SN2" value="sch. Note 2"></th>
+				<th><input type="text" name="SN3" value="sch. Note 3"></th>
+				<th><input type="text" name="SN4" value="sch. Note 4"></th>
 			</tr>
 			<tr>
 				<th><input type="text" name="muendlich" value="MUENDLICH" readonly></th>

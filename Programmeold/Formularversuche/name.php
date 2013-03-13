@@ -13,7 +13,8 @@ body {text-align: center;}
 
 <?php
 
-$sname = $_POST["sname"];
+$vorname = $_POST["Vorname"];
+$nachname = $_POST["Nachname"];
 
 $SN1 = $_POST["SN1"];
 $SN2 = $_POST["SN2"];
@@ -33,7 +34,7 @@ $mnoten = array();
 array_push($snoten, $SN1, $SN2,$SN3, $SN4);
 array_push($mnoten, $MN1, $MN2, $MN3, $MN4);
 
-echo $sname;
+
 
 
 for ($i=0; $i<count($snoten); $i++ ){

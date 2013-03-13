@@ -1,0 +1,20 @@
+<HTML>
+<HEAD>
+<TITLE></TITLE>
+</HEAD>
+<BODY BGCOLOR=#FFFFFF TEXT=#000000 LINK=#0000FF VLINK=#800080>
+<CENTER>
+<FORM>
+<SELECT NAME="list">
+<OPTION SELECTED VALUE="http://www.domain.de/index.html">
+Beschreibung
+<OPTION VALUE="http://www.domain1.de">Beschreibung1
+<OPTION VALUE="http://www.domain2.de">Beschreibung2
+<OPTION VALUE="http://www.domain3.de">Beschreibung3
+</SELECT>
+
+<INPUT TYPE=BUTTON VALUE="Go Get It!"
+onClick="top.location.href=this.form.list.options[this.form.list.selectedIndex] .value">
+</FORM>
+</CENTER>
+</BODY>
